@@ -1,0 +1,56 @@
+.container{
+   
+}
+.mainTitle{
+    margin: 20px 0;
+    margin-top: 75px;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+/* .title{
+    margin: 60px 0;
+    text-align: center;
+} */
+
+.items{
+    display:flex;
+    gap: 50px;
+    justify-content: center;
+}
+    
+.item{
+    border: 2px solid #bbb;
+    border-radius: 5px ;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    margin-top: 20px;
+    background-size: cover !important;
+   
+}
+.item:hover .subTitle {
+    color: #53c28b
+}
+
+.img{
+    width: 300px;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white
+}
+/* .item:nth-child(1){
+    background: url('/public/compu.png')
+    
+} */
+
+.subTitle{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+
+}

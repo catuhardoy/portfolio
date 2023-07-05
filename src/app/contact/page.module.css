@@ -1,0 +1,61 @@
+.container{
+}
+
+.title{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    text-align: center;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 100px
+
+}
+
+.imgContainer{
+    margin-top: -335px;
+    flex:1;
+    height: 150px;
+    position:relative
+  
+
+}
+.img{
+   object-fit: cover;
+    height: 440px;
+    width: 570px;
+    border-radius: 5px;
+}
+/* .contentForm{
+    flex:1;
+    height: 200px;
+    position: relative;
+    flex-direction: column  */
+/* } */
+.form{
+    
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.input, .textArea {
+    margin-top: -10px;
+    gap : 10px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #bbb;
+    border: 1px solid;
+    border-radius: 1px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+
+}
