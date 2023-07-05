@@ -50,7 +50,7 @@ function About() {
               <br />  
               </p>
 
-              <Button url="/contact" text="Contact"></Button>
+              <Button url="/contact" text="CONTACT"></Button>
           </div>
     </div>
   </div>
