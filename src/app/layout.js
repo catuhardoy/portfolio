@@ -1,6 +1,5 @@
 // este archivo corre los componentes. Aca se ve todo lo que se va a ver
 // en toda la pagina como el navbar y el footer 
-
 import './globals.css'
 import Navbar from './components/navbar/Navbar.jsx'
 import Footer from './components/footer/Footer.jsx'
